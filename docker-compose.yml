@@ -3,6 +3,6 @@ services:
  web:
   image: "127.0.0.1:5000/brunehilde:SNAPSHOT"
   ports:
-   - "5000:5002"
+   - "5002:5000"
  redis:
   image: "redis:alpine"
