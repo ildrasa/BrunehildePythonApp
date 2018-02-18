@@ -1,7 +1,7 @@
 version: '3'
 services:
  web:
-  image: "127.0.0.1:5000/brunehilde:snapshot
+  image: "127.0.0.1:5000/brunehilde:snapshot"
   ports:
    - "5000:5002"
  redis:
