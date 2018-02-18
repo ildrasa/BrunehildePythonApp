@@ -19,7 +19,7 @@ def get_incr_hit_count():
             retries -= 1
             time.sleep(0.5)
 
-def get_hit_count:
+def get_hit_count():
     retries = 5
     while True:
         try:
