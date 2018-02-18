@@ -30,7 +30,7 @@ def get_hit_count():
             retries -= 1
             time.sleep(0.5)
 
-@app.route('/text')
+@app.route('/')
 def hello():
     count = get_incr_hit_count()
     return 'Hello World! I have been seen {} times.\n'.format(count)
@@ -41,6 +41,6 @@ def get_count():
     return '{}\n'.format(count)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="127.0.0.1", debug=True)
     
  
